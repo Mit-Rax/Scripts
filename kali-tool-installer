@@ -1,4 +1,6 @@
 #!/bin/bash
+#coded by MitRax
+
 # Init
 FILE="/tmp/out.$$"
 GREP="/bin/grep"
