@@ -13,16 +13,17 @@ fi
 # ...
 clear
 
-apt install --no-install-recommends kde-plasma-desktop konsole sddm -y
+apt install --no-install-recommends kde-plasma-desktop konsole sddm kde-config-sddm -y
 apt install --no-install-recommends bluez plasma-nm plasma-pa vlc gwenview -y
 apt install --no-install-recommends dolphin dolphin-plugins unzip firefox-esr -y
 apt install --no-install-recommends systemsettings kwin-x11 qml-module-org-kde-kitemmodels -y
-apt install --no-install-recommends bash-completion plymouth plymouth-themes grub2 grub2-efi -y
+apt install --no-install-recommends bash-completion plymouth plymouth-themes grub2 -y
 apt install --no-install-recommends curl wget git nano bluetooth bluez-tools -y
 apt install --no-install-recommends pulseaudio-module-bluetooth bluedevil -y
+apt install ark -y 
 
-apt remove konqueror
-apt autoremove
+apt remove konqueror -y
+apt autoremove -y 
 
 systemctl enable sddm
 
