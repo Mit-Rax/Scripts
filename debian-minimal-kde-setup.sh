@@ -20,7 +20,7 @@ apt install --no-install-recommends systemsettings kwin-x11 qml-module-org-kde-k
 apt install --no-install-recommends bash-completion plymouth plymouth-themes grub2 -y
 apt install --no-install-recommends curl wget git nano bluetooth bluez-tools -y
 apt install --no-install-recommends pulseaudio-module-bluetooth bluedevil -y
-apt install ark -y 
+apt install ark kmenuedit -y 
 
 apt remove konqueror -y
 apt autoremove -y 
