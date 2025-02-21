@@ -19,8 +19,8 @@ apt install --no-install-recommends dolphin dolphin-plugins unzip firefox-esr -y
 apt install --no-install-recommends systemsettings kwin-x11 qml-module-org-kde-kitemmodels -y
 apt install --no-install-recommends bash-completion plymouth plymouth-themes grub2 -y
 apt install --no-install-recommends curl wget git nano bluetooth bluez-tools -y
-apt install --no-install-recommends pulseaudio-module-bluetooth bluedevil -y
-apt install ark kmenuedit -y 
+apt install --no-install-recommends pulseaudio-module-bluetooth bluedevil discover flatpak -y
+apt install ark zsh kmenuedit -y 
 
 apt remove konqueror -y
 apt autoremove -y 
